@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import MarqueeBanner from './components/MarqueeBanner';
 import Products from './components/Products';
+import Collections from './components/Collections';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <main>
         <MarqueeBanner />
+        <Collections />
         <Products />
         <Newsletter />
       </main>

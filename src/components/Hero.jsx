@@ -16,16 +16,14 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-brand-dark/40"></div>
             </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-6 w-full mt-20">
+            <div className="relative z-10 max-w-7xl mx-auto px-6 w-full mt-24">
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                     className="max-w-2xl"
                 >
-                    <span className="inline-block px-4 py-1 bg-brand-green/20 border border-brand-green/30 rounded-full text-brand-green font-semibold text-sm mb-6">
-                        LATEST COLLECTION 2024
-                    </span>
+                    
                     <h1 className="text-6xl md:text-8xl font-serif font-bold leading-tight mb-6 text-white">
                         Elegance in <br />
                         <span className="text-brand-orange italic">Every Fold</span>

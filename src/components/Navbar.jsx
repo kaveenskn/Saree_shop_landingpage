@@ -27,7 +27,7 @@ const Navbar = () => {
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-8">
                     {['Collections', 'New Arrivals', 'Luxury Silk', 'About Us'].map((item) => (
-                        <a key={item} href={`#\${item.toLowerCase().replace(' ', '-')}`} className="text-sm font-medium text-white hover:text-brand-orange transition-colors">
+                        <a key={item} href={`#${item.toLowerCase().split(' ')[0]}`} className="text-sm font-medium text-white hover:text-brand-orange transition-colors">
                             {item}
                         </a>
                     ))}
