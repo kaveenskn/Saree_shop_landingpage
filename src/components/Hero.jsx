@@ -13,7 +13,7 @@ const Hero = () => {
                     backgroundAttachment: "fixed"
                 }}
             >
-                <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-brand-dark/40"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-brand-dark via-brand-dark/90 to-brand-dark/40"></div>
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 w-full mt-24">

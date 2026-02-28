@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import MarqueeBanner from './components/MarqueeBanner';
 import Products from './components/Products';
 import Collections from './components/Collections';
+import About from './components/About';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
         <MarqueeBanner />
         <Collections />
         <Products />
+        <About />
         <Newsletter />
       </main>
       <Footer />
