@@ -36,7 +36,7 @@ const collections = [
     {
         title: "Lucknowi Chikankari",
         description: "Exquisite hand-embroidered patterns from the heart of Awadh.",
-        image: "https://images.unsplash.com/photo-1609176311394-802526e0388e?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/1200x/79/5a/b4/795ab4b10727904d4ea00d1840a9e22f.jpg",
         color: "from-blue-900/80 to-blue-600/20",
         link: "#chikankari"
     },

@@ -9,7 +9,7 @@ const Products = () => {
     ];
 
     return (
-        <section id="collections" className="py-32 max-w-7xl mx-auto px-6">
+        <section id="luxury" className="py-32 max-w-7xl mx-auto px-6">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                 <div className="max-w-xl">
                     <h2 className="text-5xl font-serif font-bold mb-6 text-white">Featured <span className="text-brand-green">Elegance</span></h2>
